@@ -40,5 +40,70 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: c63159f8-392a-4827-99a6-1616ed35c777
+    name: FK_Order_Hub_SalesOrderID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: true
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: a637f659-5734-4e03-9d87-27f2bfb275ad
+    name: Order_Hub_Order_Hub_HK
+    description: Identifier of the referenced Hub record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 3e06f270-8fdf-4e8e-80f6-3583cf8bf51c
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: true
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: c252930c-fd9a-44f5-aefe-93fe0d56dd4f
+    name: FK_CurrencyRate_Hub_CurrencyRateID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: true
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 8d0b9cf2-8f4a-475f-9d60-9f95158e5d41
+    name: CurrencyRate_Hub_CurrencyRate_Hub_HK
+    description: Identifier of the referenced Hub record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 3e06f270-8fdf-4e8e-80f6-3583cf8bf51c
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: true
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
 tags:
   - $view#id#ba2c5506-aee7-48e2-b2f8-c0cb9747206d
+relationships:
+  - id: 57611729-8845-4741-bfe8-c58c95c548c1
+    referencedModelObjectId: 2bc04ec5-5c2c-4a7a-b4b3-c69159d1222c
+    role: Order_Hub
+    missingBusinessKeyBehavior: none
+    relationshipTerms:
+      - termId: c63159f8-392a-4827-99a6-1616ed35c777
+        referenceTermId: 5a19f053-c486-4a84-91de-0450f1566c8d
+    additionalTermIds:
+      - a637f659-5734-4e03-9d87-27f2bfb275ad
+  - id: 1db3a789-15d3-41d6-abb7-d251ba9b9f1d
+    referencedModelObjectId: 6589b15b-a70a-49c2-901a-6ed0e6b6c53e
+    role: CurrencyRate_Hub
+    missingBusinessKeyBehavior: none
+    relationshipTerms:
+      - termId: c252930c-fd9a-44f5-aefe-93fe0d56dd4f
+        referenceTermId: c8025760-e037-4ffa-a178-645fdf8f3748
+    additionalTermIds:
+      - 8d0b9cf2-8f4a-475f-9d60-9f95158e5d41
