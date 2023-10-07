@@ -1,0 +1,42 @@
+id: 28c6f70c-60a8-478a-b7d1-03899b7eec51
+modelObjectTypeId: fc34f71a-8caf-4e6b-99ac-aeb595313273
+name: Order_OrderDetail
+terms:
+  - id: 4231af49-1d02-4829-967b-6255aa6be916
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: b4264315-4c8b-4ee5-acea-384426a865f3
+    name: Link_HK
+    description: Identifier of a record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 681eef24-7738-4e91-852b-8c53a3197e64
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 4adec801-b5c5-46f8-a126-f940ab1ad55d
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
