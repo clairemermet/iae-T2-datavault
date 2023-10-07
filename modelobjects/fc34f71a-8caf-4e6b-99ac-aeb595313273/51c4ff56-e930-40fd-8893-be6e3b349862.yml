@@ -40,5 +40,71 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: b94f7321-eb13-41a4-b5f0-2d5387787f43
+    name: FK_Order_Hub_SalesOrderID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: true
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 7ef96f45-5fbf-438f-91c1-3fd1bea53182
+    name: Order_Hub_Order_Hub_HK
+    description: Identifier of the referenced Hub record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 3e06f270-8fdf-4e8e-80f6-3583cf8bf51c
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: true
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: c52412f9-637d-4e7a-9de8-57ac55c437f2
+    name: FK_Customer_Hub_AccountNumber
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 10
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: true
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 2a2f08f7-34e6-4472-8b81-bce32a2a80af
+    name: Customer_Hub_Customer_Hub_HK
+    description: Identifier of the referenced Hub record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 3e06f270-8fdf-4e8e-80f6-3583cf8bf51c
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: true
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
 tags:
   - $view#id#ba2c5506-aee7-48e2-b2f8-c0cb9747206d
+relationships:
+  - id: 544f90c6-9c93-46f6-a28d-e9284b11b609
+    referencedModelObjectId: 2bc04ec5-5c2c-4a7a-b4b3-c69159d1222c
+    role: Order_Hub
+    missingBusinessKeyBehavior: none
+    relationshipTerms:
+      - termId: b94f7321-eb13-41a4-b5f0-2d5387787f43
+        referenceTermId: 5a19f053-c486-4a84-91de-0450f1566c8d
+    additionalTermIds:
+      - 7ef96f45-5fbf-438f-91c1-3fd1bea53182
+  - id: f798748b-4c6e-4744-9859-8074c3b36bd7
+    referencedModelObjectId: 0c6f6098-0652-4540-8605-058a2015d0ea
+    role: Customer_Hub
+    missingBusinessKeyBehavior: none
+    relationshipTerms:
+      - termId: c52412f9-637d-4e7a-9de8-57ac55c437f2
+        referenceTermId: e7a6d2cf-6390-4449-b49d-3d17e6ab6e1a
+    additionalTermIds:
+      - 2a2f08f7-34e6-4472-8b81-bce32a2a80af
