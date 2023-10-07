@@ -1,5 +1,5 @@
 id: c0580ace-2b8a-4189-985e-3b76309eb262
-name: SalesOrderDetail
+name: OrderDetail
 description: Generated Model Object from SalesOrderDetail
 modelObjectTypeId: 5a74b513-9166-4fd4-96c4-4062356fc4a4
 terms:
@@ -238,3 +238,4 @@ dataflows:
             alias: s1
 tags:
   - $view#id#ba2c5506-aee7-48e2-b2f8-c0cb9747206d
+propertyValues: []
