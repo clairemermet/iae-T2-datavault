@@ -1,0 +1,87 @@
+id: 01623123-916c-4074-99d0-27a2af87af4e
+name: OrderDetail_Hub
+description: Generated Model Object from OrderDetail
+modelObjectTypeId: ac3f7f40-3068-47df-af3d-c6990ad73f7d
+terms:
+  - id: bd02cac2-d080-47ec-b104-e940288b8fe2
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 38cc0b32-9b82-4bfa-bf4a-fc6d5ca818eb
+    name: Hub_HK
+    description: Identifier of a record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 2689505b-2079-48b5-9fea-60ac633b04fe
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: e1014d70-3561-4b98-938f-3e7cd1164285
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 3cfa81fd-50b5-4c54-91b9-690ddc610611
+    name: SalesOrderID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    propertyValues: []
+  - id: 05ed4c98-04b6-4ea3-9553-3e538063534d
+    name: SalesOrderDetailID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    propertyValues: []
+dataflows:
+  - id: 80ad186f-7582-4e2d-801a-9081904c93aa
+    name: Dataflow1
+    dataflowSets:
+      - id: b20758a2-ced9-49f3-b73b-5f468eda1334
+        name: Set1
+        termMappings:
+          - termId: bd02cac2-d080-47ec-b104-e940288b8fe2
+          - termId: 38cc0b32-9b82-4bfa-bf4a-fc6d5ca818eb
+          - termId: e1014d70-3561-4b98-938f-3e7cd1164285
+          - termId: 3cfa81fd-50b5-4c54-91b9-690ddc610611
+            expression: >-
+              76c74929-0f53-4dc2-88cd-b2bdf2290eb1.1161e371-9a28-4a9b-a7ee-1f57ded85159
+          - termId: 05ed4c98-04b6-4ea3-9553-3e538063534d
+            expression: >-
+              76c74929-0f53-4dc2-88cd-b2bdf2290eb1.fc61c37f-37f7-4da6-b138-12a6e33153d6
+        dataflowModelObjects:
+          - id: 76c74929-0f53-4dc2-88cd-b2bdf2290eb1
+            sourceModelObjectId: c0580ace-2b8a-4189-985e-3b76309eb262
+            alias: s1
+tags:
+  - $view#id#ba2c5506-aee7-48e2-b2f8-c0cb9747206d
