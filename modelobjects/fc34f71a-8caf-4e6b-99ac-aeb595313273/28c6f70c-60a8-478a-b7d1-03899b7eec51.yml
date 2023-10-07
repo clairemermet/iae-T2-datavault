@@ -143,3 +143,5 @@ dataflows:
             joinOperatorId: 1c106214-02db-4770-b9df-48a855f277fb
             id: 0c93c702-3c5b-4a5f-804a-acf7240b236e
             sourceModelObjectId: c0580ace-2b8a-4189-985e-3b76309eb262
+            joinExpression: s1.SalesOrderID = s2.SalesOrderID
+            propertyValues: []
