@@ -68,14 +68,14 @@ terms:
   - id: 8bc3b37c-c043-442f-8e81-ef239cb789ef
     name: CreditCardID
     dataType:
-      name: int
       platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
     isIdentity: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: e1717f67-93f8-42ae-aa9c-9925e696f9fe
     name: CardType
     dataType:
