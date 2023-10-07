@@ -16,3 +16,7 @@ views:
     description: Default view for data model.
     type: data-model
     default: true
+sourceSystems:
+  - id: 7b2816d0-f705-4df0-8ddd-20ba9117ae7c
+    name: Source
+    description: ''
