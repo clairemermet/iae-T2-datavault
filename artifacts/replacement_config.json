@@ -1,0 +1,110 @@
+{
+	"environments": [
+		{
+			"name": "DEV",
+			"projects": [
+				{
+					"name": "IAE tutorials",
+					"variables": [
+						{
+							"name": "iaetutorials#rawvault#server_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#rawvault#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#rawvault#schema_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#stage#server_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#stage#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#stage#schema_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#businessvault#server_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#businessvault#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#businessvault#schema_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#mart#server_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#mart#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#mart#schema_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#source#server_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#source#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#source#schema_name",
+							"value": "",
+							"secretname": ""
+						}
+					]
+				},
+				{
+					"name": "loadcontrol",
+					"variables": [
+						{
+							"name": "loadcontrol#loadcontrol#server_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "loadcontrol#loadcontrol#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "loadcontrol#loadcontrol#schema_name",
+							"value": "LC",
+							"secretname": ""
+						}
+					]
+				}
+			]
+		}
+	],
+	"secretprovider": {}
+}

@@ -1,0 +1,26 @@
+--.........................................................................
+--SQL script for post deployment configuration of load control
+--Project: IAE tutorials
+--Layer: Business Vault
+--.........................................................................
+USE [{loadcontrol#loadcontrol#database_name}];
+GO
+
+
+--.........................................................................
+--Prepare registration of load objects
+--.........................................................................
+
+EXEC [{loadcontrol#loadcontrol#schema_name}].[Build_LoadConfig] @LoadConfig = N'IAE tutorials', @ModelObjectLayer = N'Business Vault';
+
+--.........................................................................
+--Register load objects
+--.........................................................................
+
+
+--.........................................................................
+--Register load object dependencies
+--.........................................................................
+
+
+GO
