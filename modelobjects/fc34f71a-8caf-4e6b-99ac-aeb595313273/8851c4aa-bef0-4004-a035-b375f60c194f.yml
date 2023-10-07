@@ -121,6 +121,8 @@ dataflows:
           - termId: 5f1d0024-efb0-41bb-9b58-108545f5cd48
           - termId: 14d2f08b-54ca-443b-b03e-cfcb3fa16c27
           - termId: d533eed6-c024-47fb-bc35-f2b77d42c5a4
+            expression: >-
+              63c5cc26-7cb8-4e02-b814-038986e57f77.8bc3b37c-c043-442f-8e81-ef239cb789ef
           - termId: 77815c1f-6007-4a56-9ae3-6cf7d7fe06f6
         dataflowModelObjects:
           - alias: s1
