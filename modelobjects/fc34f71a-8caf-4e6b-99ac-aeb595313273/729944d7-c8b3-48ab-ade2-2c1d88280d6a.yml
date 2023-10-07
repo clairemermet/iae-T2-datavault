@@ -130,3 +130,5 @@ dataflows:
             joinOperatorId: 1c106214-02db-4770-b9df-48a855f277fb
             id: 543cfaf4-fba6-438a-a68f-34c4eb8aba0e
             sourceModelObjectId: 5efb7109-70fc-4ad8-bfc8-954b95d88119
+            joinExpression: s1.CurrencyRateID = s2.CurrencyRateID
+            propertyValues: []
