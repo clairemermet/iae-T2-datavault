@@ -1,0 +1,176 @@
+id: 4eddf405-8e24-4ca4-9da6-175e7ffb9be9
+name: Customer_Satellite
+description: Generated Model Object from Customer
+modelObjectTypeId: 3b97992a-73f0-451d-871f-e587ec71a216
+terms:
+  - id: 6a3075d0-c495-4669-baac-8100bd14a202
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 424fe60f-c9aa-46a9-826e-c70ccb3206ba
+    name: Hub_HK
+    description: Identifier of a record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 2689505b-2079-48b5-9fea-60ac633b04fe
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 4ea7e7ff-5dc5-4a21-b7d2-68c81186c28a
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: cdc22f35-6d07-4f7f-9fa9-412b6c386562
+    name: BG_ValidFromTimestamp
+    description: Default term for the technical validity or objects
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: dae67eab-4d4c-415c-b8a2-98bc6820719d
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: bb922d96-5d6a-4454-a014-a88734d7bffe
+    name: BG_RowHash
+    description: Default term that stores the computed hash value for defined attributes
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 2362debf-62f0-4e46-b0eb-bd221e3961eb
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 893d0b0a-ed9d-4be1-99b9-331c39559e15
+    name: BG_ValidToTimestamp
+    description: Default term for the technical validity or objects
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 8a0e3b61-609b-4b0b-9a14-58a7730ed12e
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: e6f033f4-be2d-457c-a5a2-7df843381e65
+    name: FK_Customer_Hub_AccountNumber
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 10
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: true
+    isNullable: true
+    hiddenInSource: true
+    hiddenInTarget: false
+  - id: 274bf933-319f-4a0a-a937-e7076e77c223
+    name: CustomerID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 2ece9b9f-f77b-4ff8-805f-940578a6effd
+    name: PersonID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 4a939fe7-c357-4743-bb70-fa59b476f7df
+    name: StoreID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: ef24de48-9ede-4aad-9754-c2a96fc0730a
+    name: TerritoryID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+dataflows:
+  - id: 6b331132-2d11-41c4-bc01-1e0ff66a3eaf
+    name: Dataflow1
+    dataflowSets:
+      - id: 105fdcef-7185-4308-821f-3b1aba94acd9
+        name: Set1
+        termMappings:
+          - termId: 6a3075d0-c495-4669-baac-8100bd14a202
+          - termId: 424fe60f-c9aa-46a9-826e-c70ccb3206ba
+          - termId: 4ea7e7ff-5dc5-4a21-b7d2-68c81186c28a
+          - termId: cdc22f35-6d07-4f7f-9fa9-412b6c386562
+          - termId: bb922d96-5d6a-4454-a014-a88734d7bffe
+          - termId: 893d0b0a-ed9d-4be1-99b9-331c39559e15
+          - termId: e6f033f4-be2d-457c-a5a2-7df843381e65
+          - termId: 274bf933-319f-4a0a-a937-e7076e77c223
+            expression: >-
+              1e515669-efe5-490c-ba0d-271e1c6c190e.617dbce8-cfb1-4ae7-85a1-2028e8c80318
+          - termId: 2ece9b9f-f77b-4ff8-805f-940578a6effd
+            expression: >-
+              1e515669-efe5-490c-ba0d-271e1c6c190e.9a22db19-ca23-44c3-a13b-ec239206efdb
+          - termId: 4a939fe7-c357-4743-bb70-fa59b476f7df
+            expression: >-
+              1e515669-efe5-490c-ba0d-271e1c6c190e.2001298e-cb45-4853-9a70-f23e2060aa52
+          - termId: ef24de48-9ede-4aad-9754-c2a96fc0730a
+            expression: >-
+              1e515669-efe5-490c-ba0d-271e1c6c190e.4027c1b3-5907-4cba-8a19-b0ae632c25ba
+        dataflowModelObjects:
+          - id: 1e515669-efe5-490c-ba0d-271e1c6c190e
+            sourceModelObjectId: 7484c858-990c-4f5c-ba79-dc764ce5a3cf
+            alias: s1
+relationships:
+  - id: 6b195a0a-f2bb-4313-8682-d5971b41a4ec
+    referencedModelObjectId: 0c6f6098-0652-4540-8605-058a2015d0ea
+    role: Customer_Hub
+    missingBusinessKeyBehavior: none
+    relationshipTerms:
+      - termId: e6f033f4-be2d-457c-a5a2-7df843381e65
+        referenceTermId: e7a6d2cf-6390-4449-b49d-3d17e6ab6e1a
+    additionalTermIds: []
+tags:
+  - $view#id#ba2c5506-aee7-48e2-b2f8-c0cb9747206d
