@@ -135,3 +135,11 @@ dataflows:
           - termId: dd1ffb04-f7e4-4631-a2d6-22e06d18283d
           - termId: 9ab3bb8d-edc5-49f3-90e8-4230de7f57cd
           - termId: 8bd43b49-d321-4c95-a4a5-97ce9aa89498
+        dataflowModelObjects:
+          - alias: s1
+            id: d8248361-c6b4-479f-bab5-ac4157918724
+            sourceModelObjectId: e61c4265-b1d9-495e-a9aa-c049a9ee027a
+          - alias: s2
+            joinOperatorId: 1c106214-02db-4770-b9df-48a855f277fb
+            id: 0c93c702-3c5b-4a5f-804a-acf7240b236e
+            sourceModelObjectId: c0580ace-2b8a-4189-985e-3b76309eb262
