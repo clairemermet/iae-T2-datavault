@@ -68,14 +68,14 @@ terms:
   - id: ee0d0947-814a-4b9f-baa0-ebb7e58e67fa
     name: CurrencyRateID
     dataType:
-      name: int
       platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
     isIdentity: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: 7f6f986c-ab79-4513-9c3a-1d02ae08e37f
     name: CurrencyRateDate
     dataType:
