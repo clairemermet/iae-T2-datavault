@@ -40,5 +40,70 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: 5f1d0024-efb0-41bb-9b58-108545f5cd48
+    name: FK_Order_Hub_SalesOrderID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: true
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 14d2f08b-54ca-443b-b03e-cfcb3fa16c27
+    name: Order_Hub_Order_Hub_HK
+    description: Identifier of the referenced Hub record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 3e06f270-8fdf-4e8e-80f6-3583cf8bf51c
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: true
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: d533eed6-c024-47fb-bc35-f2b77d42c5a4
+    name: FK_CreditCard_Hub_CreditCardID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: true
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 77815c1f-6007-4a56-9ae3-6cf7d7fe06f6
+    name: CreditCard_Hub_CreditCard_Hub_HK
+    description: Identifier of the referenced Hub record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 3e06f270-8fdf-4e8e-80f6-3583cf8bf51c
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: true
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
 tags:
   - $view#id#ba2c5506-aee7-48e2-b2f8-c0cb9747206d
+relationships:
+  - id: 8f57d4e7-f5d3-447e-9496-7120eba93f23
+    referencedModelObjectId: 2bc04ec5-5c2c-4a7a-b4b3-c69159d1222c
+    role: Order_Hub
+    missingBusinessKeyBehavior: none
+    relationshipTerms:
+      - termId: 5f1d0024-efb0-41bb-9b58-108545f5cd48
+        referenceTermId: 5a19f053-c486-4a84-91de-0450f1566c8d
+    additionalTermIds:
+      - 14d2f08b-54ca-443b-b03e-cfcb3fa16c27
+  - id: e5a4e42a-a7cd-495a-a395-cb3124586fa2
+    referencedModelObjectId: 8f897b86-bb92-4ca1-b407-a29417744907
+    role: CreditCard_Hub
+    missingBusinessKeyBehavior: none
+    relationshipTerms:
+      - termId: d533eed6-c024-47fb-bc35-f2b77d42c5a4
+        referenceTermId: fa13cabb-58d1-4f53-8ef5-02057e45cd11
+    additionalTermIds:
+      - 77815c1f-6007-4a56-9ae3-6cf7d7fe06f6
