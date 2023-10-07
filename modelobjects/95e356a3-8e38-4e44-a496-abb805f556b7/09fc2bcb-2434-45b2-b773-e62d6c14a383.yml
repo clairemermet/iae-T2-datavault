@@ -1,0 +1,131 @@
+id: 09fc2bcb-2434-45b2-b773-e62d6c14a383
+name: SalesOrderDetail
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: aeafe078-045d-42c4-b927-a22f5eed8d2c
+    name: SalesOrderID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 7f04dda2-6f2d-4748-9b87-ba84f340cc7a
+    name: SalesOrderDetailID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 90ac045c-a267-4c83-a514-a036a62c5338
+    name: CarrierTrackingNumber
+    dataType:
+      name: nvarchar
+      length: 25
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 872bdba7-c921-4401-9a56-5b67cdc4a774
+    name: OrderQty
+    dataType:
+      name: smallint
+      platformDataTypeId: ee9a9383-9a9d-4de5-a202-96aabfdc49f9
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 17cabf34-b768-46c0-bb9f-5ac8bebd7576
+    name: ProductID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: a4400626-2727-45cc-b4ff-458f3866397b
+    name: SpecialOfferID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 42786d8f-6de7-4b65-b088-4c6066faa221
+    name: UnitPrice
+    dataType:
+      name: money
+      platformDataTypeId: 705e6076-9f71-44ed-bbd6-abd128976f77
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: e19cb6fc-92f8-4c0a-b5d1-4d6faa38b433
+    name: UnitPriceDiscount
+    dataType:
+      name: money
+      platformDataTypeId: 705e6076-9f71-44ed-bbd6-abd128976f77
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: fd7910d2-0fb9-4212-ab51-109e77a4f4a2
+    name: LineTotal
+    dataType:
+      name: money
+      platformDataTypeId: 705e6076-9f71-44ed-bbd6-abd128976f77
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 08abcc42-6f8e-432b-aee7-84f518eb4df1
+    name: rowguid
+    dataType:
+      name: uniqueidentifier
+      platformDataTypeId: 351f41dd-ae2a-4710-85ad-b22383e7de6b
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 3db0801d-6240-4c86-8317-8304dd42a47f
+    name: ModifiedDate
+    dataType:
+      name: datetime
+      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - $discovery#id#56129cd0-d295-4147-9556-f957c251992e
+  - $sourcesystem#id#7b2816d0-f705-4df0-8ddd-20ba9117ae7c
+  - $initial#name#salesorderdetail
+propertyValues: []

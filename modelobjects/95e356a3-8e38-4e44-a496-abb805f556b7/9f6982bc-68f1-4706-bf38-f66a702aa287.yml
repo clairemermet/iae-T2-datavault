@@ -1,0 +1,300 @@
+id: 9f6982bc-68f1-4706-bf38-f66a702aa287
+name: SalesOrderHeader
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: 2f0c2e95-b715-4447-930c-477c9f0f0171
+    name: SalesOrderID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 528ca972-ab81-4870-964b-693026cdea3a
+    name: RevisionNumber
+    dataType:
+      name: tinyint
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: a3dbee8a-b9a5-426e-950f-2b10727f2b61
+    name: OrderDate
+    dataType:
+      name: datetime
+      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 490ebad1-c6a6-49a7-948b-a42e2f8b3903
+    name: DueDate
+    dataType:
+      name: datetime
+      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 737b37d0-a32a-4994-88f3-3c8e3438d3c0
+    name: ShipDate
+    dataType:
+      name: datetime
+      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 32919c20-7f5d-41ea-97ce-75eac8c46eb1
+    name: Status
+    dataType:
+      name: tinyint
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 64a59433-0afc-4512-9811-50466055dacd
+    name: OnlineOrderFlag
+    dataType:
+      name: bit
+      platformDataTypeId: 836defb7-f4e4-4130-97c4-afec95a59be8
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 4ecec250-1db8-4971-8823-e7e770f08185
+    name: SalesOrderNumber
+    dataType:
+      name: nvarchar
+      length: 25
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 47524dad-bf91-40d4-88ee-74389fa45819
+    name: PurchaseOrderNumber
+    dataType:
+      name: nvarchar
+      length: 25
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 5771267e-501c-4470-a1b6-b3bf9c68bdbb
+    name: AccountNumber
+    dataType:
+      name: nvarchar
+      length: 15
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 802bb910-829a-4e25-a6d5-5836ed057dce
+    name: CustomerID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 66371553-651e-4ad7-8ebd-bba4717601eb
+    name: SalesPersonID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: fd09b7ad-b9e0-4d41-8580-f4af77137ee1
+    name: TerritoryID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 235dc1a5-424e-4019-ae21-a9bae7e2dbcd
+    name: BillToAddressID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 49d90f99-92ca-477f-ba5c-f9873153b6a0
+    name: ShipToAddressID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: c5b005a1-f6a0-460e-974b-d3b32068df5d
+    name: ShipMethodID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 3e280fe1-4f25-4720-85cd-b75176e5377f
+    name: CreditCardID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 310cb4f3-f1fd-46e9-94fc-5fbb17efa961
+    name: CreditCardApprovalCode
+    dataType:
+      name: varchar
+      length: 15
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 2c59a687-f5f1-4aa6-84ff-6a5987126cc3
+    name: CurrencyRateID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 418ac08e-19a8-46a9-b864-4593c4d0906a
+    name: SubTotal
+    dataType:
+      name: money
+      platformDataTypeId: 705e6076-9f71-44ed-bbd6-abd128976f77
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 19b5184f-6362-4d41-8707-e26fb9e16a00
+    name: TaxAmt
+    dataType:
+      name: money
+      platformDataTypeId: 705e6076-9f71-44ed-bbd6-abd128976f77
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 0aa2fc27-d5cf-43e9-84dd-2c9bbfc31faf
+    name: Freight
+    dataType:
+      name: money
+      platformDataTypeId: 705e6076-9f71-44ed-bbd6-abd128976f77
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: f89d22dc-7aff-4130-a7b6-392b65147903
+    name: TotalDue
+    dataType:
+      name: money
+      platformDataTypeId: 705e6076-9f71-44ed-bbd6-abd128976f77
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 61f1a482-21b3-4180-8cb4-77c89ee0e352
+    name: Comment
+    dataType:
+      name: nvarchar
+      length: 128
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 66fc0e77-84dc-4a27-a43b-b3a2e061f3a0
+    name: rowguid
+    dataType:
+      name: uniqueidentifier
+      platformDataTypeId: 351f41dd-ae2a-4710-85ad-b22383e7de6b
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 87cfce79-b39f-4069-8ebc-916872bca694
+    name: ModifiedDate
+    dataType:
+      name: datetime
+      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - $discovery#id#56129cd0-d295-4147-9556-f957c251992e
+  - $sourcesystem#id#7b2816d0-f705-4df0-8ddd-20ba9117ae7c
+  - $initial#name#salesorderheader
+propertyValues: []

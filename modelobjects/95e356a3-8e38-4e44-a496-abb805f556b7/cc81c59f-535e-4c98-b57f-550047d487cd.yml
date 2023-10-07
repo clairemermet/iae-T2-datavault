@@ -1,0 +1,88 @@
+id: cc81c59f-535e-4c98-b57f-550047d487cd
+name: CurrencyRate
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: 511cba95-b98e-4669-8143-9a884ed97e80
+    name: CurrencyRateID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: bba9ffb0-e136-461c-820d-b0897117bc56
+    name: CurrencyRateDate
+    dataType:
+      name: datetime
+      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 74f2762c-af53-4282-8e88-d8064c884964
+    name: FromCurrencyCode
+    dataType:
+      name: nchar
+      length: 3
+      platformDataTypeId: 80d4cc92-0e85-4eef-adc0-c25d09754f6d
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: ee233691-069c-469a-8a5e-5a510b1bfe44
+    name: ToCurrencyCode
+    dataType:
+      name: nchar
+      length: 3
+      platformDataTypeId: 80d4cc92-0e85-4eef-adc0-c25d09754f6d
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: dcc6b192-3f95-4de7-86c5-e8038ea69e52
+    name: AverageRate
+    dataType:
+      name: money
+      platformDataTypeId: 705e6076-9f71-44ed-bbd6-abd128976f77
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: e519167b-15fd-4ad7-8612-e8b5d79d35d3
+    name: EndOfDayRate
+    dataType:
+      name: money
+      platformDataTypeId: 705e6076-9f71-44ed-bbd6-abd128976f77
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 27aa00b9-fae9-4259-91ed-1cab9676c10c
+    name: ModifiedDate
+    dataType:
+      name: datetime
+      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - $discovery#id#56129cd0-d295-4147-9556-f957c251992e
+  - $sourcesystem#id#7b2816d0-f705-4df0-8ddd-20ba9117ae7c
+  - $initial#name#currencyrate
+propertyValues: []
