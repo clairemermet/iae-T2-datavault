@@ -1,5 +1,5 @@
 id: d5f6cc5d-8065-4e52-ab42-38326fc24c35
-name: APITimeData
+name: Time
 description: Generated Model Object from APITimeData
 modelObjectTypeId: 5a74b513-9166-4fd4-96c4-4062356fc4a4
 terms:
@@ -141,3 +141,4 @@ dataflows:
             alias: s1
 tags:
   - $view#id#ba2c5506-aee7-48e2-b2f8-c0cb9747206d
+propertyValues: []
