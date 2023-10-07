@@ -119,3 +119,19 @@ relationships:
         referenceTermId: 05ed4c98-04b6-4ea3-9553-3e538063534d
     additionalTermIds:
       - 8bd43b49-d321-4c95-a4a5-97ce9aa89498
+dataflows:
+  - id: 6700511e-8404-4b4c-9440-2c50254cf193
+    name: Dataflow1
+    dataflowSets:
+      - id: 1061e082-a472-4a9f-8d63-c90ead59f35c
+        name: Set1
+        propertyValues: []
+        termMappings:
+          - termId: 4231af49-1d02-4829-967b-6255aa6be916
+          - termId: b4264315-4c8b-4ee5-acea-384426a865f3
+          - termId: 4adec801-b5c5-46f8-a126-f940ab1ad55d
+          - termId: 98543495-4d67-43c8-83d3-0b126f9769bc
+          - termId: 211c31ae-b9b0-402d-ae75-1583afa9e0cb
+          - termId: dd1ffb04-f7e4-4631-a2d6-22e06d18283d
+          - termId: 9ab3bb8d-edc5-49f3-90e8-4230de7f57cd
+          - termId: 8bd43b49-d321-4c95-a4a5-97ce9aa89498
