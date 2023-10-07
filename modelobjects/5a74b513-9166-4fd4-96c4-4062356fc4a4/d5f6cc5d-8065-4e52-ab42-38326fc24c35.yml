@@ -80,14 +80,14 @@ terms:
   - id: 546935b3-a671-4a53-b239-e8539d95da56
     name: Base_Time
     dataType:
-      name: datetime2
       platformDataTypeId: f136e1f5-12f2-451f-ad33-06fd581e5c41
     isIdentity: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: cc818919-7e63-48ad-9aed-b150dce48a8d
     name: Target_Location
     dataType:
