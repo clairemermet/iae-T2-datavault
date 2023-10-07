@@ -68,14 +68,14 @@ terms:
   - id: a31da9d5-5153-4407-bfbc-c27afa61165a
     name: SalesOrderID
     dataType:
-      name: int
       platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
     isIdentity: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: b9eff1ea-03ff-4251-ac26-50a5db71e6d6
     name: RevisionNumber
     dataType:
