@@ -130,3 +130,5 @@ dataflows:
             joinOperatorId: 1c106214-02db-4770-b9df-48a855f277fb
             id: 63c5cc26-7cb8-4e02-b814-038986e57f77
             sourceModelObjectId: 65d27d15-2829-4112-bbe7-0c16dc01d042
+            joinExpression: s1.CreditCardID = s2.CreditCardID
+            propertyValues: []
