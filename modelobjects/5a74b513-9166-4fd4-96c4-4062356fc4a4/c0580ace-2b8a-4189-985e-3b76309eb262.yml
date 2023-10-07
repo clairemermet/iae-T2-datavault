@@ -79,14 +79,14 @@ terms:
   - id: fc61c37f-37f7-4da6-b138-12a6e33153d6
     name: SalesOrderDetailID
     dataType:
-      name: int
       platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
     isIdentity: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: 553a8360-9490-403e-b2db-bbd3f0c88091
     name: CarrierTrackingNumber
     dataType:
