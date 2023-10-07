@@ -68,15 +68,15 @@ terms:
   - id: 97056aa3-d1cb-4e17-934a-4fa9728668df
     name: CurrencyCode
     dataType:
-      name: nchar
-      length: 3
       platformDataTypeId: 80d4cc92-0e85-4eef-adc0-c25d09754f6d
+      length: 3
     isIdentity: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: 4cbcd20a-be96-45ea-98c0-5d7951a2fa8b
     name: Name
     dataType:
