@@ -112,15 +112,15 @@ terms:
   - id: 810c13dc-d91a-4da5-9e80-4648ee24065f
     name: AccountNumber
     dataType:
-      name: nvarchar
-      length: 10
       platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 10
     isIdentity: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: 4a81b36e-5f96-4552-9c20-ef03153b708f
     name: rowguid
     dataType:
