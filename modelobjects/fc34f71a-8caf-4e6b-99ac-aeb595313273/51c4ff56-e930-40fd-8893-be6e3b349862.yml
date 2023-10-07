@@ -131,3 +131,5 @@ dataflows:
             joinOperatorId: 1c106214-02db-4770-b9df-48a855f277fb
             id: cfa8f102-6658-4f32-8d11-a02d0025440d
             sourceModelObjectId: 7484c858-990c-4f5c-ba79-dc764ce5a3cf
+            joinExpression: s1.AccountNumber = s2.AccountNumber
+            propertyValues: []
