@@ -76,6 +76,16 @@ terms:
     isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '5af68e6f-7afb-41f7-a046-17abfdda2e0f'
+    name: 'FK_Customer_Hub_CustomerID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: true
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 tags: []
 relationships:
   - id: '544f90c6-9c93-46f6-a28d-e9284b11b609'
@@ -91,7 +101,9 @@ relationships:
     referencedModelObjectId: '0c6f6098-0652-4540-8605-058a2015d0ea'
     role: 'Customer_Hub'
     missingBusinessKeyBehavior: 'none'
-    relationshipTerms: []
+    relationshipTerms:
+      - termId: '5af68e6f-7afb-41f7-a046-17abfdda2e0f'
+        referenceTermId: '4c79337c-10ec-40a0-9526-a4f4792620a2'
     additionalTermIds:
       - '2a2f08f7-34e6-4472-8b81-bce32a2a80af'
 dataflows:
@@ -109,6 +121,7 @@ dataflows:
             expression: 'd54c953b-f457-4c9c-8a47-2fd8517f7d73.a31da9d5-5153-4407-bfbc-c27afa61165a'
           - termId: '7ef96f45-5fbf-438f-91c1-3fd1bea53182'
           - termId: '2a2f08f7-34e6-4472-8b81-bce32a2a80af'
+          - termId: '5af68e6f-7afb-41f7-a046-17abfdda2e0f'
         dataflowModelObjects:
           - alias: 's1'
             id: 'd54c953b-f457-4c9c-8a47-2fd8517f7d73'
