@@ -64,7 +64,6 @@ dataflows:
           - termId: 'dd7d60e5-b30b-4d28-9aa4-ee8ec20922b2'
           - termId: '3cda2e89-84ed-4205-8636-987ddf2ab7ea'
           - termId: 'e7a6d2cf-6390-4449-b49d-3d17e6ab6e1a'
-            expression: '5f3aed48-1b61-4892-a437-9dce6dd66dc3.810c13dc-d91a-4da5-9e80-4648ee24065f'
         dataflowModelObjects:
           - id: '5f3aed48-1b61-4892-a437-9dce6dd66dc3'
             sourceModelObjectId: '7484c858-990c-4f5c-ba79-dc764ce5a3cf'
