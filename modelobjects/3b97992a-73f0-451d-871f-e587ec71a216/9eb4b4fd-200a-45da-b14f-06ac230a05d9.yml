@@ -132,6 +132,17 @@ terms:
     hiddenInSource: false
     hiddenInTarget: false
     propertyValues: []
+  - id: '24c78885-959b-4a2a-8d17-b5d67c582605'
+    name: 'UnitPrice'
+    dataType:
+      name: 'money'
+      platformDataTypeId: '705e6076-9f71-44ed-bbd6-abd128976f77'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '1736ec6a-ee8e-4ffd-8e92-5afb3460b4d7'
     name: 'Dataflow1'
@@ -155,6 +166,8 @@ dataflows:
             expression: '962b242b-ee23-475c-b90b-6f62538659d6.553a8360-9490-403e-b2db-bbd3f0c88091'
           - termId: '13fe89bc-f006-4c57-a1c3-642130023166'
             expression: '962b242b-ee23-475c-b90b-6f62538659d6.c2deb7d8-10b9-4e3a-9d74-fc3a819f0ce2'
+          - termId: '24c78885-959b-4a2a-8d17-b5d67c582605'
+            expression: '962b242b-ee23-475c-b90b-6f62538659d6.6acf6ab5-931e-4a28-827c-aa4d15f1a8b3'
         dataflowModelObjects:
           - id: '962b242b-ee23-475c-b90b-6f62538659d6'
             sourceModelObjectId: 'c0580ace-2b8a-4189-985e-3b76309eb262'
