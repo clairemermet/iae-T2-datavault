@@ -86,6 +86,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: 'e99d43dd-11d1-484d-8425-8e71024cf534'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    name: 'Day'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    propertyValues: []
 dataflows:
   - id: '7f2babfa-2fd9-4968-948f-abfb3034e6ff'
     name: 'Dataflow1'
@@ -103,6 +114,7 @@ dataflows:
           - termId: '9787af41-3738-4658-ad13-650eea07e9ff'
             expression: '4e8c76b5-20ba-4a74-9600-88c480fb426a.5cd181a6-a23e-4404-b916-f65e35157d2f'
           - termId: 'f3a4fa1e-a128-4108-b4db-f7971d1829f9'
+          - termId: 'e99d43dd-11d1-484d-8425-8e71024cf534'
         dataflowModelObjects:
           - id: '4e8c76b5-20ba-4a74-9600-88c480fb426a'
             sourceModelObjectId: 'd5f6cc5d-8065-4e52-ab42-38326fc24c35'
