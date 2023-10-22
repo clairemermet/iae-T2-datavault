@@ -53,18 +53,6 @@ terms:
     hiddenInSource: false
     hiddenInTarget: false
     propertyValues: []
-  - id: 'c828d1cc-f557-4e5f-b39b-314f91641e6f'
-    name: 'CurrencyCode1'
-    dataType:
-      platformDataTypeId: '80d4cc92-0e85-4eef-adc0-c25d09754f6d'
-      length: 3
-    isIdentity: false
-    isBusinessKey: true
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
-    propertyValues: []
   - id: '081df359-d827-4d55-8434-2dc9775f96ac'
     name: 'Name'
     dataType:
@@ -88,8 +76,6 @@ dataflows:
           - termId: '1a32c71c-76f8-41b7-bdea-704b8de253ea'
           - termId: 'f61bfd48-e2d2-4325-a789-44ccbfefb54d'
           - termId: 'e47e550f-f935-4942-8bc1-de2de77eeed9'
-            expression: '4ba0141c-bd72-4002-9b23-7b0b88e89fbf.97056aa3-d1cb-4e17-934a-4fa9728668df'
-          - termId: 'c828d1cc-f557-4e5f-b39b-314f91641e6f'
             expression: '4ba0141c-bd72-4002-9b23-7b0b88e89fbf.97056aa3-d1cb-4e17-934a-4fa9728668df'
           - termId: '081df359-d827-4d55-8434-2dc9775f96ac'
             expression: '4ba0141c-bd72-4002-9b23-7b0b88e89fbf.4cbcd20a-be96-45ea-98c0-5d7951a2fa8b'
