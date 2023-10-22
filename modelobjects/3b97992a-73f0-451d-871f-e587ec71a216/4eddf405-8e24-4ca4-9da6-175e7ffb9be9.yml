@@ -78,17 +78,6 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: '274bf933-319f-4a0a-a937-e7076e77c223'
-    name: 'CustomerID'
-    dataType:
-      name: 'int'
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '2ece9b9f-f77b-4ff8-805f-940578a6effd'
     name: 'PersonID'
     dataType:
@@ -145,8 +134,6 @@ dataflows:
           - termId: 'cdc22f35-6d07-4f7f-9fa9-412b6c386562'
           - termId: 'bb922d96-5d6a-4454-a014-a88734d7bffe'
           - termId: '893d0b0a-ed9d-4be1-99b9-331c39559e15'
-          - termId: '274bf933-319f-4a0a-a937-e7076e77c223'
-            expression: '1e515669-efe5-490c-ba0d-271e1c6c190e.617dbce8-cfb1-4ae7-85a1-2028e8c80318'
           - termId: '2ece9b9f-f77b-4ff8-805f-940578a6effd'
             expression: '1e515669-efe5-490c-ba0d-271e1c6c190e.9a22db19-ca23-44c3-a13b-ec239206efdb'
           - termId: '4a939fe7-c357-4743-bb70-fa59b476f7df'
