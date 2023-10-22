@@ -100,17 +100,6 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: '1d4b105f-db03-4fcf-8854-513f5261dca1'
-    name: 'ExpYear'
-    dataType:
-      name: 'smallint'
-      platformDataTypeId: 'ee9a9383-9a9d-4de5-a202-96aabfdc49f9'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
 dataflows:
   - id: '0413a5db-6560-438d-8f3c-46d14057ef57'
     name: 'Dataflow1'
@@ -127,8 +116,6 @@ dataflows:
           - termId: '4f80bf9c-70c4-44fa-992f-1c8404e130c1'
           - termId: '09962878-c235-4290-b999-46238d2e28eb'
             expression: '6d714a19-151f-453e-b5fd-f37e4f94d5b0.e1717f67-93f8-42ae-aa9c-9925e696f9fe'
-          - termId: '1d4b105f-db03-4fcf-8854-513f5261dca1'
-            expression: '6d714a19-151f-453e-b5fd-f37e4f94d5b0.3df012c0-e768-4295-9560-f16ffaa03f7c'
         dataflowModelObjects:
           - id: '6d714a19-151f-453e-b5fd-f37e4f94d5b0'
             sourceModelObjectId: '65d27d15-2829-4112-bbe7-0c16dc01d042'
