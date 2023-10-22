@@ -52,23 +52,23 @@ terms:
     hiddenInSource: false
     hiddenInTarget: false
     propertyValues: []
-  - id: '3f53db4c-4fa6-4c82-a45f-69936b34115c'
-    name: 'Target_Location'
+  - id: '9787af41-3738-4658-ad13-650eea07e9ff'
+    name: 'Target_Time'
     dataType:
-      name: 'varchar'
-      length: 50
-      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+      name: 'datetime2'
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: '9787af41-3738-4658-ad13-650eea07e9ff'
-    name: 'Target_Time'
+  - id: '3f53db4c-4fa6-4c82-a45f-69936b34115c'
+    name: 'Target_Location'
     dataType:
-      name: 'datetime2'
-      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+      name: 'varchar'
+      length: 50
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
