@@ -134,17 +134,6 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: 'a6b0e2c1-08bd-43c1-8e39-d6e4611c145c'
-    name: 'EndOfDayRate'
-    dataType:
-      name: 'money'
-      platformDataTypeId: '705e6076-9f71-44ed-bbd6-abd128976f77'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
 dataflows:
   - id: '6e0ae71f-0396-43c5-a0ca-005514f7e581'
     name: 'Dataflow1'
@@ -168,8 +157,6 @@ dataflows:
             expression: '7d2b4482-b059-46f2-89e7-a3d51f71b2e0.e3be769e-7f77-435e-9028-de406717a681'
           - termId: '3c525eee-1130-4778-a5c7-1370b25be2f1'
             expression: '7d2b4482-b059-46f2-89e7-a3d51f71b2e0.04557753-dc33-4c0f-b43b-bdc32b9578f5'
-          - termId: 'a6b0e2c1-08bd-43c1-8e39-d6e4611c145c'
-            expression: '7d2b4482-b059-46f2-89e7-a3d51f71b2e0.788c7e2b-aef8-4add-9246-a53158213058'
         dataflowModelObjects:
           - id: '7d2b4482-b059-46f2-89e7-a3d51f71b2e0'
             sourceModelObjectId: '5efb7109-70fc-4ad8-bfc8-954b95d88119'
