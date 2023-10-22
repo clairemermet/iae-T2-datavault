@@ -122,9 +122,8 @@ terms:
     hiddenInSource: false
     hiddenInTarget: false
   - id: '13fe89bc-f006-4c57-a1c3-642130023166'
-    name: 'UnitPriceDiscount'
+    name: 'Discount'
     dataType:
-      name: 'money'
       platformDataTypeId: '705e6076-9f71-44ed-bbd6-abd128976f77'
     isIdentity: false
     isBusinessKey: false
@@ -132,6 +131,7 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
 dataflows:
   - id: '1736ec6a-ee8e-4ffd-8e92-5afb3460b4d7'
     name: 'Dataflow1'
