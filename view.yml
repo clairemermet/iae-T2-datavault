@@ -6,7 +6,6 @@ views:
     description: 'Default view for data pipe.'
     modelObjects:
       - id: '33444370-5a57-4706-8b26-cb68b0c61efe'
-      - id: 'a39d6e93-b95f-453a-a690-fc1ba267729d'
       - id: 'edb776ae-0fb1-4e24-b1a6-b217f06917f9'
       - id: '4eddf405-8e24-4ca4-9da6-175e7ffb9be9'
       - id: 'a8c3df1f-2fdc-4afb-b8d0-e90a393f6814'
