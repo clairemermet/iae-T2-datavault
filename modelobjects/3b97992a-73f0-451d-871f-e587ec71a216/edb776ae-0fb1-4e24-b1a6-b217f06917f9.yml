@@ -100,18 +100,6 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: 'dba67b6e-54e5-4289-8b17-1be3f7675c45'
-    name: 'CardNumber'
-    dataType:
-      name: 'nvarchar'
-      length: 25
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '505c26dd-ab8a-4274-b0d3-56bcef19354e'
     name: 'ExpMonth'
     dataType:
@@ -150,8 +138,6 @@ dataflows:
           - termId: '4f80bf9c-70c4-44fa-992f-1c8404e130c1'
           - termId: '09962878-c235-4290-b999-46238d2e28eb'
             expression: '6d714a19-151f-453e-b5fd-f37e4f94d5b0.e1717f67-93f8-42ae-aa9c-9925e696f9fe'
-          - termId: 'dba67b6e-54e5-4289-8b17-1be3f7675c45'
-            expression: '6d714a19-151f-453e-b5fd-f37e4f94d5b0.180e1353-b5fe-4cd6-bc27-0d0fea28c475'
           - termId: '505c26dd-ab8a-4274-b0d3-56bcef19354e'
             expression: '6d714a19-151f-453e-b5fd-f37e4f94d5b0.2d9416d8-1095-4e0e-9eac-b091914dce11'
           - termId: '1d4b105f-db03-4fcf-8854-513f5261dca1'
