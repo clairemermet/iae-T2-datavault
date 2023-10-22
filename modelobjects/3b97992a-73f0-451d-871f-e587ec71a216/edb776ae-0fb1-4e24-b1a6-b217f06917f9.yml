@@ -114,6 +114,7 @@ dataflows:
           - termId: 'a4ea87c3-745f-4e8f-bf08-c6909d3ace7e'
           - termId: 'd0e1febb-bd6f-46e3-9a30-09eaba580564'
           - termId: '4f80bf9c-70c4-44fa-992f-1c8404e130c1'
+            expression: '6d714a19-151f-453e-b5fd-f37e4f94d5b0.8bc3b37c-c043-442f-8e81-ef239cb789ef'
           - termId: '09962878-c235-4290-b999-46238d2e28eb'
             expression: '6d714a19-151f-453e-b5fd-f37e4f94d5b0.e1717f67-93f8-42ae-aa9c-9925e696f9fe'
         dataflowModelObjects:
