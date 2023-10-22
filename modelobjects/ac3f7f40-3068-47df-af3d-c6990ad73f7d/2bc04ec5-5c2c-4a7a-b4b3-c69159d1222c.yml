@@ -1,50 +1,50 @@
-id: 2bc04ec5-5c2c-4a7a-b4b3-c69159d1222c
-name: Order_Hub
-description: Generated Model Object from Order
-modelObjectTypeId: ac3f7f40-3068-47df-af3d-c6990ad73f7d
+id: '2bc04ec5-5c2c-4a7a-b4b3-c69159d1222c'
+name: 'Order_Hub'
+description: 'Generated Model Object from Order'
+modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
 terms:
-  - id: 7041cd3f-28f7-43cc-9be6-17b725598ca2
-    name: BG_LoadTimestamp
-    description: Default term with the load timestamp
+  - id: '7041cd3f-28f7-43cc-9be6-17b725598ca2'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
     dataType:
-      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
-    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
     isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
-  - id: 17d0107b-7872-4146-b9a7-22a127196a1a
-    name: Hub_HK
-    description: Identifier of a record
+  - id: '17d0107b-7872-4146-b9a7-22a127196a1a'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
     dataType:
-      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
       length: 20
-    defaultTermId: 2689505b-2079-48b5-9fea-60ac633b04fe
+    defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
     isIdentity: true
     isBusinessKey: false
     isForeignKey: false
     isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
-  - id: 3841537a-69fa-4c43-95de-a31cd67a1b5e
-    name: BG_SourceSystem
-    description: Default term with an identifier of the source system
+  - id: '3841537a-69fa-4c43-95de-a31cd67a1b5e'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
       length: 255
-    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: 5a19f053-c486-4a84-91de-0450f1566c8d
-    name: SalesOrderID
+  - id: '5a19f053-c486-4a84-91de-0450f1566c8d'
+    name: 'SalesOrderID'
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isIdentity: false
     isBusinessKey: true
     isForeignKey: false
@@ -53,21 +53,19 @@ terms:
     hiddenInTarget: false
     propertyValues: []
 dataflows:
-  - id: e817b4cb-19ab-4587-bff8-c8322ed11071
-    name: Dataflow1
+  - id: 'e817b4cb-19ab-4587-bff8-c8322ed11071'
+    name: 'Dataflow1'
     dataflowSets:
-      - id: 8a24ea18-7a15-4796-a163-7a6c11b7044f
-        name: Set1
+      - id: '8a24ea18-7a15-4796-a163-7a6c11b7044f'
+        name: 'Set1'
         termMappings:
-          - termId: 7041cd3f-28f7-43cc-9be6-17b725598ca2
-          - termId: 17d0107b-7872-4146-b9a7-22a127196a1a
-          - termId: 3841537a-69fa-4c43-95de-a31cd67a1b5e
-          - termId: 5a19f053-c486-4a84-91de-0450f1566c8d
-            expression: >-
-              bdf1021b-fc48-4589-9629-e67fcee9a20b.a31da9d5-5153-4407-bfbc-c27afa61165a
+          - termId: '7041cd3f-28f7-43cc-9be6-17b725598ca2'
+          - termId: '17d0107b-7872-4146-b9a7-22a127196a1a'
+          - termId: '3841537a-69fa-4c43-95de-a31cd67a1b5e'
+          - termId: '5a19f053-c486-4a84-91de-0450f1566c8d'
+            expression: 'bdf1021b-fc48-4589-9629-e67fcee9a20b.a31da9d5-5153-4407-bfbc-c27afa61165a'
         dataflowModelObjects:
-          - id: bdf1021b-fc48-4589-9629-e67fcee9a20b
-            sourceModelObjectId: e61c4265-b1d9-495e-a9aa-c049a9ee027a
-            alias: s1
-tags:
-  - $view#id#ba2c5506-aee7-48e2-b2f8-c0cb9747206d
+          - id: 'bdf1021b-fc48-4589-9629-e67fcee9a20b'
+            sourceModelObjectId: 'e61c4265-b1d9-495e-a9aa-c049a9ee027a'
+            alias: 's1'
+tags: []
