@@ -22,21 +22,6 @@
 							"secretname": ""
 						},
 						{
-							"name": "iaetutorials#stage#server_name",
-							"value": "",
-							"secretname": ""
-						},
-						{
-							"name": "iaetutorials#stage#database_name",
-							"value": "",
-							"secretname": ""
-						},
-						{
-							"name": "iaetutorials#stage#schema_name",
-							"value": "",
-							"secretname": ""
-						},
-						{
 							"name": "iaetutorials#businessvault#server_name",
 							"value": "",
 							"secretname": ""
@@ -63,6 +48,21 @@
 						},
 						{
 							"name": "iaetutorials#mart#schema_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#stage#server_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#stage#database_name",
+							"value": "",
+							"secretname": ""
+						},
+						{
+							"name": "iaetutorials#stage#schema_name",
 							"value": "",
 							"secretname": ""
 						},
