@@ -63,29 +63,6 @@ terms:
     hiddenInSource: false
     hiddenInTarget: false
     propertyValues: []
-  - id: '9787af41-3738-4658-ad13-650eea07e9ff'
-    name: 'Target_Time'
-    dataType:
-      platformDataTypeId: '275e6bf4-6ac0-4d35-b79f-955ece31c8d7'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
-    propertyValues: []
-  - id: '3f53db4c-4fa6-4c82-a45f-69936b34115c'
-    name: 'Target_Location'
-    dataType:
-      name: 'varchar'
-      length: 50
-      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: 'e99d43dd-11d1-484d-8425-8e71024cf534'
     isIdentity: false
     isBusinessKey: false
@@ -119,6 +96,29 @@ terms:
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     propertyValues: []
+  - id: '9787af41-3738-4658-ad13-650eea07e9ff'
+    name: 'Target_Time'
+    dataType:
+      platformDataTypeId: '275e6bf4-6ac0-4d35-b79f-955ece31c8d7'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    propertyValues: []
+  - id: '3f53db4c-4fa6-4c82-a45f-69936b34115c'
+    name: 'Target_Location'
+    dataType:
+      name: 'varchar'
+      length: 50
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '7f2babfa-2fd9-4968-948f-abfb3034e6ff'
     name: 'Dataflow1'
