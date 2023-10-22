@@ -78,17 +78,6 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: 'e6f033f4-be2d-457c-a5a2-7df843381e65'
-    name: 'FK_Customer_Hub_AccountNumber'
-    dataType:
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-      length: 10
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: true
-    isNullable: true
-    hiddenInSource: true
-    hiddenInTarget: false
   - id: '274bf933-319f-4a0a-a937-e7076e77c223'
     name: 'CustomerID'
     dataType:
@@ -146,7 +135,6 @@ dataflows:
           - termId: 'cdc22f35-6d07-4f7f-9fa9-412b6c386562'
           - termId: 'bb922d96-5d6a-4454-a014-a88734d7bffe'
           - termId: '893d0b0a-ed9d-4be1-99b9-331c39559e15'
-          - termId: 'e6f033f4-be2d-457c-a5a2-7df843381e65'
           - termId: '274bf933-319f-4a0a-a937-e7076e77c223'
             expression: '1e515669-efe5-490c-ba0d-271e1c6c190e.617dbce8-cfb1-4ae7-85a1-2028e8c80318'
           - termId: '2ece9b9f-f77b-4ff8-805f-940578a6effd'
@@ -164,8 +152,6 @@ relationships:
     referencedModelObjectId: '0c6f6098-0652-4540-8605-058a2015d0ea'
     role: 'Customer_Hub'
     missingBusinessKeyBehavior: 'none'
-    relationshipTerms:
-      - termId: 'e6f033f4-be2d-457c-a5a2-7df843381e65'
-        referenceTermId: 'e7a6d2cf-6390-4449-b49d-3d17e6ab6e1a'
+    relationshipTerms: []
     additionalTermIds: []
 tags: []
