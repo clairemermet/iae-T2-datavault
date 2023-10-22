@@ -75,6 +75,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: 'f3a4fa1e-a128-4108-b4db-f7971d1829f9'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    name: 'DateTime'
+    dataType:
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    propertyValues: []
 dataflows:
   - id: '7f2babfa-2fd9-4968-948f-abfb3034e6ff'
     name: 'Dataflow1'
@@ -91,6 +102,7 @@ dataflows:
             expression: '4e8c76b5-20ba-4a74-9600-88c480fb426a.cc818919-7e63-48ad-9aed-b150dce48a8d'
           - termId: '9787af41-3738-4658-ad13-650eea07e9ff'
             expression: '4e8c76b5-20ba-4a74-9600-88c480fb426a.5cd181a6-a23e-4404-b916-f65e35157d2f'
+          - termId: 'f3a4fa1e-a128-4108-b4db-f7971d1829f9'
         dataflowModelObjects:
           - id: '4e8c76b5-20ba-4a74-9600-88c480fb426a'
             sourceModelObjectId: 'd5f6cc5d-8065-4e52-ab42-38326fc24c35'
