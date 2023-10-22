@@ -52,18 +52,6 @@ terms:
     hiddenInSource: false
     hiddenInTarget: false
     propertyValues: []
-  - id: '669721a5-511a-46c4-b5e8-0995001550c3'
-    name: 'Base_Location'
-    dataType:
-      name: 'varchar'
-      length: 50
-      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '3f53db4c-4fa6-4c82-a45f-69936b34115c'
     name: 'Target_Location'
     dataType:
@@ -99,8 +87,6 @@ dataflows:
           - termId: 'ba22b2a6-0507-495e-b795-b7a67ac07a2b'
           - termId: '37e3e287-9e18-4cfd-8f76-7052a88d7c10'
             expression: '4e8c76b5-20ba-4a74-9600-88c480fb426a.546935b3-a671-4a53-b239-e8539d95da56'
-          - termId: '669721a5-511a-46c4-b5e8-0995001550c3'
-            expression: '4e8c76b5-20ba-4a74-9600-88c480fb426a.73d2484e-00a1-462b-890a-e7df4df79afc'
           - termId: '3f53db4c-4fa6-4c82-a45f-69936b34115c'
             expression: '4e8c76b5-20ba-4a74-9600-88c480fb426a.cc818919-7e63-48ad-9aed-b150dce48a8d'
           - termId: '9787af41-3738-4658-ad13-650eea07e9ff'
