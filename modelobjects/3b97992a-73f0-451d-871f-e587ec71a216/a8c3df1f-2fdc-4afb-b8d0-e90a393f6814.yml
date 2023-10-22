@@ -99,6 +99,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '3c525eee-1130-4778-a5c7-1370b25be2f1'
+    name: 'AverageRate'
+    dataType:
+      name: 'money'
+      platformDataTypeId: '705e6076-9f71-44ed-bbd6-abd128976f77'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
   - id: 'f30ef3af-b988-4dca-97a5-58f9fd0cece5'
     name: 'FromCurrencyCode'
     dataType:
@@ -117,17 +128,6 @@ terms:
       name: 'nchar'
       length: 3
       platformDataTypeId: '80d4cc92-0e85-4eef-adc0-c25d09754f6d'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
-  - id: '3c525eee-1130-4778-a5c7-1370b25be2f1'
-    name: 'AverageRate'
-    dataType:
-      name: 'money'
-      platformDataTypeId: '705e6076-9f71-44ed-bbd6-abd128976f77'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
