@@ -42,9 +42,9 @@ terms:
     hiddenInSource: false
     hiddenInTarget: false
   - id: '37e3e287-9e18-4cfd-8f76-7052a88d7c10'
-    name: 'Base_Time'
+    name: 'Time'
     dataType:
-      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+      platformDataTypeId: '275e6bf4-6ac0-4d35-b79f-955ece31c8d7'
     isIdentity: false
     isBusinessKey: true
     isForeignKey: false
