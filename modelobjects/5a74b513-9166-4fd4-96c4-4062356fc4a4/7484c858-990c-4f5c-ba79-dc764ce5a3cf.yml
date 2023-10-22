@@ -115,7 +115,7 @@ terms:
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
       length: 10
     isIdentity: false
-    isBusinessKey: true
+    isBusinessKey: false
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
