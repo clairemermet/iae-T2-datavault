@@ -78,17 +78,6 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: 'ef24de48-9ede-4aad-9754-c2a96fc0730a'
-    name: 'TerritoryID'
-    dataType:
-      name: 'int'
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '3c2c25d9-8aea-4df9-92eb-aa2282321604'
     name: 'FK_Customer_Hub_CustomerID'
     dataType:
@@ -112,8 +101,6 @@ dataflows:
           - termId: 'cdc22f35-6d07-4f7f-9fa9-412b6c386562'
           - termId: 'bb922d96-5d6a-4454-a014-a88734d7bffe'
           - termId: '893d0b0a-ed9d-4be1-99b9-331c39559e15'
-          - termId: 'ef24de48-9ede-4aad-9754-c2a96fc0730a'
-            expression: '1e515669-efe5-490c-ba0d-271e1c6c190e.4027c1b3-5907-4cba-8a19-b0ae632c25ba'
           - termId: '3c2c25d9-8aea-4df9-92eb-aa2282321604'
         dataflowModelObjects:
           - id: '1e515669-efe5-490c-ba0d-271e1c6c190e'
