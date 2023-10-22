@@ -41,6 +41,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: 'f3a4fa1e-a128-4108-b4db-f7971d1829f9'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    name: 'DateTime'
+    dataType:
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    propertyValues: []
   - id: '37e3e287-9e18-4cfd-8f76-7052a88d7c10'
     name: 'Time'
     dataType:
@@ -75,17 +86,6 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: 'f3a4fa1e-a128-4108-b4db-f7971d1829f9'
-    isIdentity: false
-    isBusinessKey: true
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
-    name: 'DateTime'
-    dataType:
-      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
-    propertyValues: []
 dataflows:
   - id: '7f2babfa-2fd9-4968-948f-abfb3034e6ff'
     name: 'Dataflow1'
