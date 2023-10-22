@@ -1,5 +1,5 @@
 id: '3d82a36e-ea4c-465b-9d3a-3b866a90cb9a'
-name: 'Time_Reference_Table'
+name: 'Date_Reference_Table'
 description: 'Generated Model Object from Time'
 modelObjectTypeId: '82405a73-9ba1-44c4-9cfe-5fcc22f07597'
 terms:
@@ -110,3 +110,4 @@ dataflows:
             sourceModelObjectId: 'd5f6cc5d-8065-4e52-ab42-38326fc24c35'
             alias: 's1'
 tags: []
+propertyValues: []
