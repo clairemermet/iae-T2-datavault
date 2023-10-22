@@ -108,6 +108,17 @@ terms:
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     propertyValues: []
+  - id: '7880a452-daa2-4ce3-81ff-8ac40834529c'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    name: 'Year'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    propertyValues: []
 dataflows:
   - id: '7f2babfa-2fd9-4968-948f-abfb3034e6ff'
     name: 'Dataflow1'
@@ -127,6 +138,7 @@ dataflows:
           - termId: 'f3a4fa1e-a128-4108-b4db-f7971d1829f9'
           - termId: 'e99d43dd-11d1-484d-8425-8e71024cf534'
           - termId: '3a75e6ea-b41b-4daf-bd16-8dec4d849c64'
+          - termId: '7880a452-daa2-4ce3-81ff-8ac40834529c'
         dataflowModelObjects:
           - id: '4e8c76b5-20ba-4a74-9600-88c480fb426a'
             sourceModelObjectId: 'd5f6cc5d-8065-4e52-ab42-38326fc24c35'
