@@ -100,17 +100,6 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: '505c26dd-ab8a-4274-b0d3-56bcef19354e'
-    name: 'ExpMonth'
-    dataType:
-      name: 'tinyint'
-      platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '1d4b105f-db03-4fcf-8854-513f5261dca1'
     name: 'ExpYear'
     dataType:
@@ -138,8 +127,6 @@ dataflows:
           - termId: '4f80bf9c-70c4-44fa-992f-1c8404e130c1'
           - termId: '09962878-c235-4290-b999-46238d2e28eb'
             expression: '6d714a19-151f-453e-b5fd-f37e4f94d5b0.e1717f67-93f8-42ae-aa9c-9925e696f9fe'
-          - termId: '505c26dd-ab8a-4274-b0d3-56bcef19354e'
-            expression: '6d714a19-151f-453e-b5fd-f37e4f94d5b0.2d9416d8-1095-4e0e-9eac-b091914dce11'
           - termId: '1d4b105f-db03-4fcf-8854-513f5261dca1'
             expression: '6d714a19-151f-453e-b5fd-f37e4f94d5b0.3df012c0-e768-4295-9560-f16ffaa03f7c'
         dataflowModelObjects:
