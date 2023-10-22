@@ -4,7 +4,7 @@ name: 'IAE tutorials'
 description: 'IAE tutorials'
 configuration:
   id: 'biGENIUS.Implementation.Generator.VaultAndMart.Mssql'
-  version: '1.2.0-rc02'
+  version: '1.2.0'
 sourceSystems:
   - id: '7b2816d0-f705-4df0-8ddd-20ba9117ae7c'
     name: 'Source'
