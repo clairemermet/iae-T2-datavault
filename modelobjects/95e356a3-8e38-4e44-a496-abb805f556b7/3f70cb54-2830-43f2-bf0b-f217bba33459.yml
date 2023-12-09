@@ -1,0 +1,77 @@
+id: '3f70cb54-2830-43f2-bf0b-f217bba33459'
+name: 'CreditCard'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'cc91a184-0cf5-40c6-920d-11dcd1da24c6'
+    name: 'CreditCardID'
+    dataType:
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '0c8055c7-5cd0-48a1-8684-63a8ee9ee4f0'
+    name: 'CardType'
+    dataType:
+      name: 'nvarchar'
+      length: 50
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'cfc84632-b13d-43bf-bb39-6c3a1b1d4836'
+    name: 'CardNumber'
+    dataType:
+      name: 'nvarchar'
+      length: 25
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3f599940-961b-4ac7-b742-49e101ae6b08'
+    name: 'ExpMonth'
+    dataType:
+      name: 'tinyint'
+      platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '310d6d35-7982-4753-b40d-a430e522a49a'
+    name: 'ExpYear'
+    dataType:
+      name: 'smallint'
+      platformDataTypeId: 'ee9a9383-9a9d-4de5-a202-96aabfdc49f9'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'cc4660cb-3717-4990-a27a-690c3d554903'
+    name: 'ModifiedDate'
+    dataType:
+      name: 'datetime'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#56129cd0-d295-4147-9556-f957c251992e'
+  - '$sourcesystem#id#7b2816d0-f705-4df0-8ddd-20ba9117ae7c'
+  - '$initial#name#creditcard'
+propertyValues: []

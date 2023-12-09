@@ -1,0 +1,71 @@
+id: '0c6f6098-0652-4540-8605-058a2015d0ea'
+name: 'Customer_Hub'
+description: 'Generated Model Object from Customer'
+modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
+terms:
+  - id: '115d4538-3968-4bcd-a58d-92d038e515ea'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'dd7d60e5-b30b-4d28-9aa4-ee8ec20922b2'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    dataType:
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
+      length: 20
+    defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3cda2e89-84ed-4205-8636-987ddf2ab7ea'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4c79337c-10ec-40a0-9526-a4f4792620a2'
+    name: 'CustomerID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    propertyValues: []
+dataflows:
+  - id: '174485c4-0e18-4d20-b375-20c9ce29409f'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '21547a9a-fcbc-4a0c-bd61-8e369a7b71d1'
+        name: 'Set1'
+        termMappings:
+          - termId: '115d4538-3968-4bcd-a58d-92d038e515ea'
+          - termId: 'dd7d60e5-b30b-4d28-9aa4-ee8ec20922b2'
+          - termId: '3cda2e89-84ed-4205-8636-987ddf2ab7ea'
+          - termId: '4c79337c-10ec-40a0-9526-a4f4792620a2'
+            expression: '5f3aed48-1b61-4892-a437-9dce6dd66dc3.617dbce8-cfb1-4ae7-85a1-2028e8c80318'
+        dataflowModelObjects:
+          - id: '5f3aed48-1b61-4892-a437-9dce6dd66dc3'
+            sourceModelObjectId: '7484c858-990c-4f5c-ba79-dc764ce5a3cf'
+            alias: 's1'
+tags: []

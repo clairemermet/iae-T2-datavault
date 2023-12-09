@@ -1,0 +1,164 @@
+id: '3d82a36e-ea4c-465b-9d3a-3b866a90cb9a'
+name: 'Date_Reference_Table'
+description: 'Generated Model Object from Time'
+modelObjectTypeId: '82405a73-9ba1-44c4-9cfe-5fcc22f07597'
+terms:
+  - id: '99bc6de6-2991-4c18-8549-635ee711e1a7'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '0161109b-caf0-49c9-98d4-0a8af0665e94'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ba22b2a6-0507-495e-b795-b7a67ac07a2b'
+    name: 'BG_RowHash'
+    description: 'Default term that stores the computed hash value for defined attributes'
+    dataType:
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
+      length: 20
+    defaultTermId: '2362debf-62f0-4e46-b0eb-bd221e3961eb'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f3a4fa1e-a128-4108-b4db-f7971d1829f9'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    name: 'DateTime'
+    dataType:
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    propertyValues: []
+  - id: '37e3e287-9e18-4cfd-8f76-7052a88d7c10'
+    name: 'Time'
+    dataType:
+      platformDataTypeId: '275e6bf4-6ac0-4d35-b79f-955ece31c8d7'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    propertyValues: []
+  - id: 'e99d43dd-11d1-484d-8425-8e71024cf534'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    name: 'Day'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    propertyValues: []
+  - id: '3a75e6ea-b41b-4daf-bd16-8dec4d849c64'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    name: 'Month'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    propertyValues: []
+  - id: '7880a452-daa2-4ce3-81ff-8ac40834529c'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    name: 'Year'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    propertyValues: []
+  - id: 'f89fab6e-c01d-46c8-bb4a-542a8e54bff7'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    name: 'Target_Date'
+    dataType:
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    propertyValues: []
+  - id: '9787af41-3738-4658-ad13-650eea07e9ff'
+    name: 'Target_Time'
+    dataType:
+      platformDataTypeId: '275e6bf4-6ac0-4d35-b79f-955ece31c8d7'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    propertyValues: []
+  - id: '3f53db4c-4fa6-4c82-a45f-69936b34115c'
+    name: 'Target_Location'
+    dataType:
+      name: 'varchar'
+      length: 50
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+dataflows:
+  - id: '7f2babfa-2fd9-4968-948f-abfb3034e6ff'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'a4612f9a-271d-431f-8888-a9938166aaa1'
+        name: 'Set1'
+        termMappings:
+          - termId: '99bc6de6-2991-4c18-8549-635ee711e1a7'
+          - termId: '0161109b-caf0-49c9-98d4-0a8af0665e94'
+          - termId: 'ba22b2a6-0507-495e-b795-b7a67ac07a2b'
+          - termId: '37e3e287-9e18-4cfd-8f76-7052a88d7c10'
+            expression: 'CAST(4e8c76b5-20ba-4a74-9600-88c480fb426a.546935b3-a671-4a53-b239-e8539d95da56 AS time)'
+          - termId: '3f53db4c-4fa6-4c82-a45f-69936b34115c'
+            expression: '4e8c76b5-20ba-4a74-9600-88c480fb426a.cc818919-7e63-48ad-9aed-b150dce48a8d'
+          - termId: '9787af41-3738-4658-ad13-650eea07e9ff'
+            expression: 'CAST(4e8c76b5-20ba-4a74-9600-88c480fb426a.5cd181a6-a23e-4404-b916-f65e35157d2f AS time)'
+          - termId: 'f3a4fa1e-a128-4108-b4db-f7971d1829f9'
+            expression: '4e8c76b5-20ba-4a74-9600-88c480fb426a.546935b3-a671-4a53-b239-e8539d95da56'
+          - termId: 'e99d43dd-11d1-484d-8425-8e71024cf534'
+            expression: 'DAY(4e8c76b5-20ba-4a74-9600-88c480fb426a.546935b3-a671-4a53-b239-e8539d95da56)'
+          - termId: '3a75e6ea-b41b-4daf-bd16-8dec4d849c64'
+            expression: 'MONTH(4e8c76b5-20ba-4a74-9600-88c480fb426a.546935b3-a671-4a53-b239-e8539d95da56)'
+          - termId: '7880a452-daa2-4ce3-81ff-8ac40834529c'
+            expression: 'YEAR(4e8c76b5-20ba-4a74-9600-88c480fb426a.546935b3-a671-4a53-b239-e8539d95da56)'
+          - termId: 'f89fab6e-c01d-46c8-bb4a-542a8e54bff7'
+            expression: 'CAST(4e8c76b5-20ba-4a74-9600-88c480fb426a.5cd181a6-a23e-4404-b916-f65e35157d2f AS date)'
+        dataflowModelObjects:
+          - id: '4e8c76b5-20ba-4a74-9600-88c480fb426a'
+            sourceModelObjectId: 'd5f6cc5d-8065-4e52-ab42-38326fc24c35'
+            alias: 's1'
+tags: []
+propertyValues: []

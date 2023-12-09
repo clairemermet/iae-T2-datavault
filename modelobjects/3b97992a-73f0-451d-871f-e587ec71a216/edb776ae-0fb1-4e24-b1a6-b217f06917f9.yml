@@ -1,0 +1,133 @@
+id: 'edb776ae-0fb1-4e24-b1a6-b217f06917f9'
+name: 'CreditCard_Satellite'
+description: 'Generated Model Object from CreditCard'
+modelObjectTypeId: '3b97992a-73f0-451d-871f-e587ec71a216'
+terms:
+  - id: '2bd1c2e5-7a6c-45cc-a707-d5cb686b9ab9'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f290dac5-c7ee-4a31-aac5-d9a2f2be7f2b'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    dataType:
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
+      length: 20
+    defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '547b7752-64e5-4b2f-99f2-0072b6294d0b'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '95af6db8-a115-4a7e-b80c-4ced4b4fef59'
+    name: 'BG_ValidFromTimestamp'
+    description: 'Default term for the technical validity or objects'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a4ea87c3-745f-4e8f-bf08-c6909d3ace7e'
+    name: 'BG_RowHash'
+    description: 'Default term that stores the computed hash value for defined attributes'
+    dataType:
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
+      length: 20
+    defaultTermId: '2362debf-62f0-4e46-b0eb-bd221e3961eb'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd0e1febb-bd6f-46e3-9a30-09eaba580564'
+    name: 'BG_ValidToTimestamp'
+    description: 'Default term for the technical validity or objects'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4f80bf9c-70c4-44fa-992f-1c8404e130c1'
+    name: 'FK_CreditCard_Hub_CreditCardID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: true
+    isNullable: true
+    hiddenInSource: true
+    hiddenInTarget: false
+  - id: '09962878-c235-4290-b999-46238d2e28eb'
+    name: 'CardType'
+    dataType:
+      name: 'nvarchar'
+      length: 50
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+dataflows:
+  - id: '0413a5db-6560-438d-8f3c-46d14057ef57'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '23832d25-0fba-418b-ba94-9400ac624c1a'
+        name: 'Set1'
+        termMappings:
+          - termId: '2bd1c2e5-7a6c-45cc-a707-d5cb686b9ab9'
+          - termId: 'f290dac5-c7ee-4a31-aac5-d9a2f2be7f2b'
+          - termId: '547b7752-64e5-4b2f-99f2-0072b6294d0b'
+          - termId: '95af6db8-a115-4a7e-b80c-4ced4b4fef59'
+          - termId: 'a4ea87c3-745f-4e8f-bf08-c6909d3ace7e'
+          - termId: 'd0e1febb-bd6f-46e3-9a30-09eaba580564'
+          - termId: '4f80bf9c-70c4-44fa-992f-1c8404e130c1'
+            expression: '6d714a19-151f-453e-b5fd-f37e4f94d5b0.8bc3b37c-c043-442f-8e81-ef239cb789ef'
+          - termId: '09962878-c235-4290-b999-46238d2e28eb'
+            expression: '6d714a19-151f-453e-b5fd-f37e4f94d5b0.e1717f67-93f8-42ae-aa9c-9925e696f9fe'
+        dataflowModelObjects:
+          - id: '6d714a19-151f-453e-b5fd-f37e4f94d5b0'
+            sourceModelObjectId: '65d27d15-2829-4112-bbe7-0c16dc01d042'
+            alias: 's1'
+relationships:
+  - id: '3794ef99-84da-449c-be38-3f43618f21eb'
+    referencedModelObjectId: '8f897b86-bb92-4ca1-b407-a29417744907'
+    role: 'CreditCard_Hub'
+    missingBusinessKeyBehavior: 'none'
+    relationshipTerms:
+      - termId: '4f80bf9c-70c4-44fa-992f-1c8404e130c1'
+        referenceTermId: 'fa13cabb-58d1-4f53-8ef5-02057e45cd11'
+    additionalTermIds: []
+tags: []

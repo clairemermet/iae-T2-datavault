@@ -1,18 +1,11 @@
-id: 6e7edf08-2b04-44cc-09c6-08dbbe9037fc
-version: v1
-name: IAE tutorials
-description: IAE tutorials
+id: '6e7edf08-2b04-44cc-09c6-08dbbe9037fc'
+version: 'v1.1'
+name: 'IAE tutorials'
+description: 'IAE tutorials'
 configuration:
-  id: biGENIUS.Implementation.Generator.VaultAndMart.Mssql
-  version: 1.2.0-rc02
-views:
-  - id: ba2c5506-aee7-48e2-b2f8-c0cb9747206d
-    name: Datapipe View 1
-    description: Default view for data pipe.
-    type: data-pipe
-    default: true
-  - id: a90649fe-719c-4af7-8aec-169f8abbefbd
-    name: Datamodel View 1
-    description: Default view for data model.
-    type: data-model
-    default: true
+  id: 'biGENIUS.Implementation.Generator.VaultAndMart.Mssql'
+  version: '1.2.0'
+sourceSystems:
+  - id: '7b2816d0-f705-4df0-8ddd-20ba9117ae7c'
+    name: 'Source'
+    description: ''

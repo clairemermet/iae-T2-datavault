@@ -1,0 +1,55 @@
+id: '19464852-cc44-470d-95a9-ae3ddab743db'
+name: 'APITimeData'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '9186b948-a215-40de-a8d5-83f9d7cce418'
+    name: 'Base_Location'
+    dataType:
+      name: 'varchar'
+      length: 50
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9f789323-dd57-4d84-a422-dd9320adf538'
+    name: 'Base_Time'
+    dataType:
+      name: 'datetime2'
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c45568fa-bf24-4ae8-ab25-a99758ae3803'
+    name: 'Target_Location'
+    dataType:
+      name: 'varchar'
+      length: 50
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'fb565fee-f2b5-4d97-9717-6d6a1fe4def8'
+    name: 'Target_Time'
+    dataType:
+      name: 'datetime2'
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#56129cd0-d295-4147-9556-f957c251992e'
+  - '$sourcesystem#id#7b2816d0-f705-4df0-8ddd-20ba9117ae7c'
+  - '$initial#name#apitimedata'
+propertyValues: []

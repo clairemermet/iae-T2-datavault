@@ -1,0 +1,87 @@
+id: '9985808e-737a-4b10-ab3f-705debfbcf88'
+name: 'Customer'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '8950aa74-afc9-4530-9127-4f88e23988c6'
+    name: 'CustomerID'
+    dataType:
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '66feaa53-cf84-4ab2-bf20-a3af6d411bb2'
+    name: 'PersonID'
+    dataType:
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd7ff4948-f032-4c0d-a666-ddf6366dc2fd'
+    name: 'StoreID'
+    dataType:
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3961672e-603d-4f84-b112-3ebd59e540d2'
+    name: 'TerritoryID'
+    dataType:
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a15dc45c-f612-450e-ae86-126f4fc2d554'
+    name: 'AccountNumber'
+    dataType:
+      name: 'nvarchar'
+      length: 10
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '63755ae4-4384-49e8-ae25-b5c302c12013'
+    name: 'rowguid'
+    dataType:
+      name: 'uniqueidentifier'
+      platformDataTypeId: '351f41dd-ae2a-4710-85ad-b22383e7de6b'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '7fa7bf7f-e083-438d-b4b8-70f8c5da40b9'
+    name: 'ModifiedDate'
+    dataType:
+      name: 'datetime'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#56129cd0-d295-4147-9556-f957c251992e'
+  - '$sourcesystem#id#7b2816d0-f705-4df0-8ddd-20ba9117ae7c'
+  - '$initial#name#customer'
+propertyValues: []

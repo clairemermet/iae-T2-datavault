@@ -1,0 +1,641 @@
+id: 56129cd0-d295-4147-9556-f957c251992e
+name: staging_output.json
+timestamp: '2023-10-07T09:25:31.4091066+00:00'
+sourceSystem:
+  type: Microsoft SQL Server
+sourceObjects:
+  - name: APITimeData
+    fullyQualifiedName: Staging.SA.APITimeData
+    objectType: {}
+    terms:
+      - name: Base_Location
+        sourceDataType:
+          name: VARCHAR
+          length: 50
+          isNullable: false
+        dataType:
+          name: VARCHAR
+          length: 50
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: Base_Time
+        sourceDataType:
+          name: DATETIME2
+          isNullable: true
+        dataType:
+          name: DATETIME2
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: Target_Location
+        sourceDataType:
+          name: VARCHAR
+          length: 50
+          isNullable: false
+        dataType:
+          name: VARCHAR
+          length: 50
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: Target_Time
+        sourceDataType:
+          name: DATETIME2
+          isNullable: true
+        dataType:
+          name: DATETIME2
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: CreditCard
+    fullyQualifiedName: Staging.SA.CreditCard
+    objectType: {}
+    terms:
+      - name: CreditCardID
+        sourceDataType:
+          name: INTEGER
+          isNullable: false
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: CardType
+        sourceDataType:
+          name: NVARCHAR
+          length: 50
+          isNullable: false
+        dataType:
+          name: NVARCHAR
+          length: 50
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: CardNumber
+        sourceDataType:
+          name: NVARCHAR
+          length: 25
+          isNullable: false
+        dataType:
+          name: NVARCHAR
+          length: 25
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ExpMonth
+        sourceDataType:
+          name: TINYINT
+          isNullable: false
+        dataType:
+          name: TINYINT
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ExpYear
+        sourceDataType:
+          name: SMALLINT
+          isNullable: false
+        dataType:
+          name: SMALLINT
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ModifiedDate
+        sourceDataType:
+          name: DATETIME
+          isNullable: false
+        dataType:
+          name: DATETIME
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: Currency
+    fullyQualifiedName: Staging.SA.Currency
+    objectType: {}
+    terms:
+      - name: CurrencyCode
+        sourceDataType:
+          name: NCHAR
+          length: 3
+          isNullable: false
+        dataType:
+          name: NCHAR
+          length: 3
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: Name
+        sourceDataType:
+          name: NVARCHAR
+          length: 50
+          isNullable: false
+        dataType:
+          name: NVARCHAR
+          length: 50
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ModifiedDate
+        sourceDataType:
+          name: DATETIME
+          isNullable: false
+        dataType:
+          name: DATETIME
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: CurrencyRate
+    fullyQualifiedName: Staging.SA.CurrencyRate
+    objectType: {}
+    terms:
+      - name: CurrencyRateID
+        sourceDataType:
+          name: INTEGER
+          isNullable: false
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: CurrencyRateDate
+        sourceDataType:
+          name: DATETIME
+          isNullable: false
+        dataType:
+          name: DATETIME
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: FromCurrencyCode
+        sourceDataType:
+          name: NCHAR
+          length: 3
+          isNullable: false
+        dataType:
+          name: NCHAR
+          length: 3
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ToCurrencyCode
+        sourceDataType:
+          name: NCHAR
+          length: 3
+          isNullable: false
+        dataType:
+          name: NCHAR
+          length: 3
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: AverageRate
+        sourceDataType:
+          name: MONEY
+          isNullable: false
+        dataType:
+          name: MONEY
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: EndOfDayRate
+        sourceDataType:
+          name: MONEY
+          isNullable: false
+        dataType:
+          name: MONEY
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ModifiedDate
+        sourceDataType:
+          name: DATETIME
+          isNullable: false
+        dataType:
+          name: DATETIME
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: Customer
+    fullyQualifiedName: Staging.SA.Customer
+    objectType: {}
+    terms:
+      - name: CustomerID
+        sourceDataType:
+          name: INTEGER
+          isNullable: false
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: PersonID
+        sourceDataType:
+          name: INTEGER
+          isNullable: true
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: StoreID
+        sourceDataType:
+          name: INTEGER
+          isNullable: true
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: TerritoryID
+        sourceDataType:
+          name: INTEGER
+          isNullable: true
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: AccountNumber
+        sourceDataType:
+          name: NVARCHAR
+          length: 10
+          isNullable: true
+        dataType:
+          name: NVARCHAR
+          length: 10
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: rowguid
+        sourceDataType:
+          name: UNIQUEIDENTIFIER
+          isNullable: false
+        dataType:
+          name: UNIQUEIDENTIFIER
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ModifiedDate
+        sourceDataType:
+          name: DATETIME
+          isNullable: false
+        dataType:
+          name: DATETIME
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: SalesOrderDetail
+    fullyQualifiedName: Staging.SA.SalesOrderDetail
+    objectType: {}
+    terms:
+      - name: SalesOrderID
+        sourceDataType:
+          name: INTEGER
+          isNullable: false
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: SalesOrderDetailID
+        sourceDataType:
+          name: INTEGER
+          isNullable: false
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: CarrierTrackingNumber
+        sourceDataType:
+          name: NVARCHAR
+          length: 25
+          isNullable: true
+        dataType:
+          name: NVARCHAR
+          length: 25
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: OrderQty
+        sourceDataType:
+          name: SMALLINT
+          isNullable: false
+        dataType:
+          name: SMALLINT
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ProductID
+        sourceDataType:
+          name: INTEGER
+          isNullable: false
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: SpecialOfferID
+        sourceDataType:
+          name: INTEGER
+          isNullable: false
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: UnitPrice
+        sourceDataType:
+          name: MONEY
+          isNullable: false
+        dataType:
+          name: MONEY
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: UnitPriceDiscount
+        sourceDataType:
+          name: MONEY
+          isNullable: false
+        dataType:
+          name: MONEY
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: LineTotal
+        sourceDataType:
+          name: MONEY
+          isNullable: false
+        dataType:
+          name: MONEY
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: rowguid
+        sourceDataType:
+          name: UNIQUEIDENTIFIER
+          isNullable: false
+        dataType:
+          name: UNIQUEIDENTIFIER
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ModifiedDate
+        sourceDataType:
+          name: DATETIME
+          isNullable: false
+        dataType:
+          name: DATETIME
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+  - name: SalesOrderHeader
+    fullyQualifiedName: Staging.SA.SalesOrderHeader
+    objectType: {}
+    terms:
+      - name: SalesOrderID
+        sourceDataType:
+          name: INTEGER
+          isNullable: false
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: RevisionNumber
+        sourceDataType:
+          name: TINYINT
+          isNullable: false
+        dataType:
+          name: TINYINT
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: OrderDate
+        sourceDataType:
+          name: DATETIME
+          isNullable: false
+        dataType:
+          name: DATETIME
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: DueDate
+        sourceDataType:
+          name: DATETIME
+          isNullable: false
+        dataType:
+          name: DATETIME
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ShipDate
+        sourceDataType:
+          name: DATETIME
+          isNullable: true
+        dataType:
+          name: DATETIME
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: Status
+        sourceDataType:
+          name: TINYINT
+          isNullable: false
+        dataType:
+          name: TINYINT
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: OnlineOrderFlag
+        sourceDataType:
+          name: BIT
+          isNullable: false
+        dataType:
+          name: BIT
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: SalesOrderNumber
+        sourceDataType:
+          name: NVARCHAR
+          length: 25
+          isNullable: false
+        dataType:
+          name: NVARCHAR
+          length: 25
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: PurchaseOrderNumber
+        sourceDataType:
+          name: NVARCHAR
+          length: 25
+          isNullable: true
+        dataType:
+          name: NVARCHAR
+          length: 25
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: AccountNumber
+        sourceDataType:
+          name: NVARCHAR
+          length: 15
+          isNullable: true
+        dataType:
+          name: NVARCHAR
+          length: 15
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: CustomerID
+        sourceDataType:
+          name: INTEGER
+          isNullable: false
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: SalesPersonID
+        sourceDataType:
+          name: INTEGER
+          isNullable: true
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: TerritoryID
+        sourceDataType:
+          name: INTEGER
+          isNullable: true
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: BillToAddressID
+        sourceDataType:
+          name: INTEGER
+          isNullable: false
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ShipToAddressID
+        sourceDataType:
+          name: INTEGER
+          isNullable: false
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ShipMethodID
+        sourceDataType:
+          name: INTEGER
+          isNullable: false
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: CreditCardID
+        sourceDataType:
+          name: INTEGER
+          isNullable: true
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: CreditCardApprovalCode
+        sourceDataType:
+          name: VARCHAR
+          length: 15
+          isNullable: true
+        dataType:
+          name: VARCHAR
+          length: 15
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: CurrencyRateID
+        sourceDataType:
+          name: INTEGER
+          isNullable: true
+        dataType:
+          name: int
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: SubTotal
+        sourceDataType:
+          name: MONEY
+          isNullable: false
+        dataType:
+          name: MONEY
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: TaxAmt
+        sourceDataType:
+          name: MONEY
+          isNullable: false
+        dataType:
+          name: MONEY
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: Freight
+        sourceDataType:
+          name: MONEY
+          isNullable: false
+        dataType:
+          name: MONEY
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: TotalDue
+        sourceDataType:
+          name: MONEY
+          isNullable: false
+        dataType:
+          name: MONEY
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: Comment
+        sourceDataType:
+          name: NVARCHAR
+          length: 128
+          isNullable: true
+        dataType:
+          name: NVARCHAR
+          length: 128
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: rowguid
+        sourceDataType:
+          name: UNIQUEIDENTIFIER
+          isNullable: false
+        dataType:
+          name: UNIQUEIDENTIFIER
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+      - name: ModifiedDate
+        sourceDataType:
+          name: DATETIME
+          isNullable: false
+        dataType:
+          name: DATETIME
+        isIdentity: false
+        isBusinessKey: false
+        isForeignKey: false
+additionalProperties: {}

@@ -1,0 +1,44 @@
+id: '44b39841-a5ad-43ff-ab80-3cd1c60c5dbf'
+name: 'Currency'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'a50f5435-fda0-458d-a93f-ab93d6274afe'
+    name: 'CurrencyCode'
+    dataType:
+      name: 'nchar'
+      length: 3
+      platformDataTypeId: '80d4cc92-0e85-4eef-adc0-c25d09754f6d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ce13fdf3-c997-489d-844d-91bcf071679d'
+    name: 'Name'
+    dataType:
+      name: 'nvarchar'
+      length: 50
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f8c8a592-ddf5-46b4-acb9-9bf1a22d796b'
+    name: 'ModifiedDate'
+    dataType:
+      name: 'datetime'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#56129cd0-d295-4147-9556-f957c251992e'
+  - '$sourcesystem#id#7b2816d0-f705-4df0-8ddd-20ba9117ae7c'
+  - '$initial#name#currency'
+propertyValues: []
